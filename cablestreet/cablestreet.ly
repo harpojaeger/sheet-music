@@ -1,4 +1,10 @@
 \version "2.18.2"
+\header {
+  title = "Cable Street"
+  composer = "The Young 'Uns"
+  arranger = "Harpo Jaeger"
+}
+
 \score {
 <<
 \relative c'
