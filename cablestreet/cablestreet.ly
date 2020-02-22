@@ -32,7 +32,7 @@ versetwo = \lyricmode {
   r4 a4 b a8 b4. a4 a a r fis b a b d8 d4. d a8 a4 cis cis e, fis2.
   r4. d'4. d2 d4 cis4 cis4. a8 b2.
 
-  r4 d, e a4 b a a a8 a r4 fis b a b2 g4 fis4. e8 d4 cis' cis a fis2.
+  r4 d, e a4 b a a a8 a r4 fis b a b2 g4 fis r4 d e8 fis4. g4 fis2.
   r4 d8 e4. a4. a8 a4 a8 r4 a8 a4 fis b a b2 g4 fis4. e8 d4 cis' cis b a2.
   r4 a a b8 cis4. d4 fis, e d' cis cis cis8 d~d4 r4 a d2 a4 b d4. d8 cis 2.
   r4 a4 b a8 b4. a4 a a r fis b a b d8 d4. d a8 a4 cis cis e, fis2.
@@ -50,7 +50,7 @@ versetwo = \lyricmode {
   r4 d e fis8 g4. fis4 e fis r d d' d b4 d8 b4. a4. g8 fis4 e d e fis2.
   r4. b4. a2 fis4 e fis4. e8 d2.  
 
-  r4 d e fis g fis e fis8 e r4 d d' d b8~d4. b4 a r d, e d e b2.
+  r4 d e fis g fis e fis8 e r4 d d' d b8~d4. b4 a r d, e8 d4. e4 b2.
   r4 d8 e4. fis4. g8 fis4 e8 r4 fis8 e4 d d' d b8 d4. b4 a4. g8 fis4 e fis e d2.
   r4 a'4 a b8 cis4. d4 a g fis e fis g8 fis8~fis4 r d a'2 a4 g a4. fis8 e2. 
   r4 d e fis8 g4. fis4 e fis r d d' d b4 d8 b4. a4. g8 fis4 e d e fis2.
