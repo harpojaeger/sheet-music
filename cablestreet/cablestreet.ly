@@ -67,7 +67,7 @@ versethree = \lyricmode {
   r2 d4 fis g fis e8 fis4 r8 e4 d d'8 d4. b4 r b a8 g4. fis4 e d e b2.
   r4 d4 e fis g4. fis8 e4 fis r8 e d4 d' d b d b a4. fis e8~fis4. e4 d2.
   r2 a'4 b4. cis8 d4 a8 g r4 fis e4. d8 e4 fis8 e4 r8 d4 a'4 a2 g4 a fis e2.
-  r4 d e fis g8 fis4. e4 r d d d' d b d b a r fis e8~d4. e4 fis2.
+  r4 d e fis g8 fis4. e4 r d d d' d b d b a r fis e8~ d4. e4 fis2.
   r2 b4 a r fis g2 fis4 a2.\fermata
   
 }
@@ -92,6 +92,10 @@ versethree = \lyricmode {
   r2. fis'4. d a4 a4. a8 g'2.\fermata
 
   r2 d4 d d d cis8 cis4 r8 cis4 b4 d8 fis4. g4 r d d8 d4. d4 a d cis b2.
+  r4 a a d d4. d8 cis4 cis r8 cis b4 d d g g \grace e16 d4 d4. d a8~d4. e4 fis2.
+  r2 d4 g4. g8 g4 d8 d r4 d a4. a8 a4 b8 b4 r8 a4 d d2 g,4 d' b a2.
+  r4 a a d d8 d4. cis4 r \grace d8 b4 b d d g g g d r d a2 a4 b2.
+  r2 g'4 fis r a b2 fis4 e2.\fermata
 }
 >>
 \layout { }
