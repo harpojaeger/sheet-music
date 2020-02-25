@@ -62,6 +62,9 @@ versefour = \lyricmode {
 
   r2. r2. r2 fis,8 e d4 b' a b d d d r a8 a a4 a a fis2.
   r4 d e a b a a r2 fis4 b a b2 fis4 fis4. g8 fis4 cis' cis b a2.
+  r2 a4 b a4. g8 fis4 e r8 fis cis'4. b8 cis4 cis b a d r2 b8 cis4. d4 cis2.
+  r4 a b a8 b4. a4 a r a fis b a b d2 d4 r d cis2 a4 fis2.
+  r2. d'4 r d d2 d4 cis2.\fermata
 }
 \relative c' 
 \new Voice = "tenor" {
