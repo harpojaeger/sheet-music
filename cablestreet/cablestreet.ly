@@ -69,7 +69,7 @@ versefour = \lyricmode {
 \relative c' 
 \new Voice = "tenor" {
   \key d \major
-  \tempo 4 = 130
+  \tempo 4 = 135
   \time 3/4
   \relative c,
   r4 d e fis4. g8 fis4 e fis e d d' d b d b4 a4. g8 fis4 e d e b2.
