@@ -29,6 +29,14 @@ versethree = \lyricmode {
   We sang They shall not pass!
 }
 
+versefour = \lyricmode {
+  Then all those young lads, we were sent to the side streets to stop the po -- lice break -- ing through.
+  And with swift hands we made strong barr -- i -- cades out of any -- thing we could use.
+  And they came to charge us, but they couldn't barge us, with fists, ba -- tons and hooves.
+  With as good as we got, we with -- stood the lot, for we would not be moved.
+  We would not be moved.
+}
+
 \score {
 <<
 \relative c'
@@ -81,6 +89,7 @@ versethree = \lyricmode {
 \verseone
 \versetwo
 \versethree
+\versefour
 }
 \relative c'
 \new Voice = bass {
