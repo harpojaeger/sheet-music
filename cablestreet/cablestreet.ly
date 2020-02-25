@@ -50,6 +50,7 @@ versethree = \lyricmode {
   r4 d e a b4. a8 a4 a r8 a fis4 b a b b d d4. a cis2 b4 a2.
   r2 a4 b4. g8 g4 fis8 d r4 d' cis4. b8 cis4 cis8 b4 r8 a4 d d2 b4 cis d cis2.
   r4 a b a b8 a4. a4 r a fis b a b b d d r d cis2 a4 fis2.
+  r2 d'4 d r d d2 d4 cis2.\fermata
 }
 \relative c' 
 \new Voice = "tenor" {
