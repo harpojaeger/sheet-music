@@ -64,7 +64,7 @@ versefour = \lyricmode {
   r4 d e a b a a r2 fis4 b a b2 fis4 fis4. g8 fis4 cis' cis b a2.
   r2 a4 b a4. g8 fis4 e r8 fis cis'4. b8 cis4 cis b a d r2 b8 cis4. d4 cis2.
   r4 a b a8 b4. a4 a r a fis b a b d2 d4 r d cis2 a4 fis2.
-  r2. d'4 r d d2 d4 cis2.\fermata
+  r2. d'2 d4 d2 d4 cis2.\fermata
 }
 \relative c' 
 \new Voice = "tenor" {
@@ -94,7 +94,7 @@ versefour = \lyricmode {
   r4 d e fis g fis e r2 d4 d' d b8~d4. b4 a4. g8 fis4 e fis e d2.
   r2 a'4 b cis4. d8 a4 g r8 fis e4. fis8 g4 fis e d a' r2 g8 a4. fis4 e2.
   r4 d e fis8 g4. fis4 e r d d d' d b d2 a4 r fis e8~d4. e4 fis2.
-  r2. a4 r fis g2 fis4 a2.\fermata
+  r2. a2 fis4 g2 fis4 a2.\fermata
   
 }
 \new Lyrics \lyricsto "tenor" {
@@ -123,6 +123,12 @@ versefour = \lyricmode {
   r2 d4 g4. g8 g4 d8 d r4 d a4. a8 a4 b8 b4 r8 a4 d d2 g,4 d' b a2.
   r4 a a d d8 d4. cis4 r \grace d8 b4 b d d g g g d r d a2 a4 b2.
   r2 g'4 fis r a b2 fis4 e2.\fermata
+
+  r2. r2. r2 fis8 e d4 d d g g g d r d8 d a4 d cis b2.
+  r4 a a d d d cis r2 b4 d fis g2 d4 d4. d8 d4 a4 d e fis2.
+  r2 d4 g g4. g8 d4 d r8 d a4. a8 a4 b b b d r2 g,8 d'4. b4 a2.
+  r4 a4 a d8 d4. d4 cis r cis b d fis g g2 d4 r d a2 a4 b2.
+  r2. fis'4 d d b'2 fis4 e2.\fermata
 }
 >>
 \layout { }
