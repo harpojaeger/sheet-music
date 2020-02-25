@@ -31,9 +31,9 @@ versethree = \lyricmode {
 
 versefour = \lyricmode {
   Then all those young lads, we were sent to the side streets to stop the po -- lice break -- ing through.
-  And with swift hands we made strong barr -- i -- cades out of any -- thing we could use.
-  And they came to charge us, but they couldn't barge us, with fists, ba -- tons and hooves.
-  With as good as we got, we with -- stood the lot, for we would not be moved.
+  And with swift hands we made strong barr -- i -- cades out of an -- y -- thing we could use.
+  And they came to charge us, but they could -- n't barge us, with fists, ba -- tons and hooves.
+  With as good as we'd got, we with -- stood the lot, for we would not be moved.
   We would not be moved.
 }
 
@@ -83,6 +83,12 @@ versefour = \lyricmode {
   r2 a'4 b4. cis8 d4 a8 g r4 fis e4. fis8 g4 fis8 e4 r8 d4 a'4 a2 g4 a fis e2.
   r4 d e fis g8 fis4. e4 r d d d' d b d b a r fis e8~ d4. e4 fis2.
   r2 b4 a r fis g2 fis4 a2.\fermata
+
+  r2 d,4 fis g fis e r fis8 e d4 d' d b d b a r fis8 fis e4 d e b2.
+  r4 d e fis g fis e r2 d4 d' d b8~d4. b4 a4. g8 fis4 e fis e d2.
+  r2 a'4 b cis4. d8 a4 g r8 fis e4. fis8 g4 fis e d a' r2 g8 a4. fis4 e2.
+  r4 d e fis8 g4. fis4 e r d d d' d b d2 a4 r fis e8~d4. e4 fis2.
+  r2. a4 r fis g2 fis4 a2.\fermata
   
 }
 \new Lyrics \lyricsto "tenor" {
