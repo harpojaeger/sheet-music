@@ -92,7 +92,12 @@ codalyrics = \lyricmode {
   r4 d e a r8 b8 a4 a r8 a8 a4 fis b a b2 g4 fis4. e8 d4 cis'4. cis8 b4 a2.
   r2 a4 b8 cis4. d4 fis,4 r d' cis cis4. cis8 b4 r a8 a d2 d4 d2 d4 cis2.
   r4 a a a b a a r a fis b a b2 g4 fis2 r4 cis'2 b4 a2.\fermata
+
+  r2. d2. d4 r2 cis2. b4 r2 d2. d2. cis2. r2. r2. r2
+  a4 a a a b2.\fermata
+  fis2. cis'2 cis4 a2.\fermata
 }
+
 \relative c' 
 \new Voice = "tenor" {
   \key d \major
@@ -142,6 +147,7 @@ codalyrics = \lyricmode {
   a2. fis2 e4 d2.\fermata
 
 }
+
 \new Lyrics \lyricsto "tenor" {
 \verseone
 \versetwo
@@ -151,6 +157,7 @@ codalyrics = \lyricmode {
 \versefive
 \codalyrics
 }
+
 \relative c'
 \new Voice = bass {
   \key d \major
