@@ -166,7 +166,7 @@ hum = \lyricmode {
       \tempo 4 = 120
       b cis d a r2 e4 fis g fis r4 d4 a'2 a8 a g8 a4. fis4 e2.
       r2 d8^\markup {\italic rit.}( e) fis4. g8 fis4 e r d4 d d' d b8( d8 d2\fermata)
-      a2. fis2 e4 d2.\fermata
+      a2.^\markup {\italic Nazi-punchingly} fis2 e4 d2.\fermata
 
     }
   >>
