@@ -82,6 +82,11 @@ versefive = \lyricmode {
   r2 a4\fermata d8 r4 d8 d4 d a a cis8 r4 cis8 cis4 b4
   r8 a8 a4 d4 d4. d8 d4. d8 d4 cis2.
   r2 a4 a b4. a8 a4 r4 a fis b2 b2 g4 fis4. fis cis'2 b4 a2.
+
+  r2. r2. r2 a4 a a a b2 g4 fis4. e8 d4 cis' cis4. a8 fis2.
+  r4 d e a r8 b8 a4 a r8 a8 a4 fis b a b2 g4 fis4. e8 d4 cis'4. cis8 b4 a2.
+  r2 a4 b8 cis4. d4 fis,4 r d' cis cis4. cis8 b4 r a8 a d2 d4 d2 d4 cis2.
+  r4 a a a b a a r a fis b a b2 g4 fis2 r4 cis'2 b4 a2.\fermata
 }
 \relative c' 
 \new Voice = "tenor" {
