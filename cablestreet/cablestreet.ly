@@ -50,10 +50,19 @@ versefive = \lyricmode {
   And that when we were gone, our daught -- ers and sons would stand where we stood.
 }
 
+% All parts sing this line together, so it's separated out for DRYness.
+codaFinalLine = \lyricmode {
+  and I al -- ways will: "\"¡No" pas -- a -- "ran!\""
+}
+
 codalyrics = \lyricmode {
   Was the first time I'd heard two ti -- ny words said by ever -- y wo -- man and man.
-  Now I say them still, and I al -- ways will: "\"¡No" pas -- a -- "ran!\""
+  Now I say them still, \codaFinalLine
 }
+
+hum = \lyricmode {
+      \markup {\italic mmm }
+    }
 
 \new ChoirStaff <<
   \new Staff = "altos"
@@ -144,7 +153,7 @@ codalyrics = \lyricmode {
       r4 d e fis r8 g fis4 e r8 fis e4 d d' d b8( d4.) b4 a4. g8 fis4 e4. d8 e4 d2.
       r2 a'4 b8 cis4. d4 a r fis e fis4. g8 fis4 r d8 d a'2 a4 g8( a4.) fis4 e2.
       r4 d e fis g fis e r d d d' d b8( d4.) b4 a2 r4 e8( fis4.) e4 d2.\fermata
-  
+
       r4 a'^\markup {\italic Largo} a
       \tempo 4 = 120
       b cis d a r2 e4 fis g fis r4 d4 a'2 a8 a g8 a4. fis4 e2.
@@ -192,7 +201,7 @@ codalyrics = \lyricmode {
       r4 a a d d d cis r2 b4 d fis g2 d4 d4. d8 d4 a4 d e fis2.
       r2 d4 g g4. g8 d4 d r8 d a4. a8 a4 b b b d r2 g,8 d'4. b4 a2.
       r4 a4 a d8 d4. d4 cis r cis b d fis g g2 d4 r d a2 a4 b2.
-      r2. fis'4 d d b'2 fis4 e2.\fermata
+      r2. fis'4( d) d b'2 fis4 e2.\fermata
 
       r2 d4\fermata g8 r4 g,8 b4 d d d a8 r4 fis8 a4 b4
       r8 a8 a4 d4 d4. d8 g,4. d'8 b4 a2.
@@ -203,11 +212,17 @@ codalyrics = \lyricmode {
       r2 d4 g8 g4. g4 d4 r d a4 a4. a8 b4 r4 a8 a8 d2 d4 g,8 d'4. b4 a2.
       r4 a a d d d cis r cis b d d g2 d4 d2 r4 a2 a4 fis'2.\fermata
 
-      r2. g2. d4 r2 a2. b4 r2 d2. g,2. a2. r2.
-      r2. r2 d4 d d d g2.\fermata
-      d2. a2 fis'4( fis2.\fermata)
+      \new Voice = "basscoda" {
+        r2. g2.( d4) r2 a2.( b4) r2 d2.( g,2. a2.) r2.
+        r2. r2 d4 d d d g2.\fermata
+        d2. a4. a8( fis'4) fis2.\fermata
+      }
     }
   >>
+  \new Lyrics \lyricsto "basscoda" {
+    \hum \hum \hum
+    \codaFinalLine
+  }
 >>
 \layout { }
 \midi { }
