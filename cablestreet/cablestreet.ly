@@ -50,6 +50,11 @@ versefive = \lyricmode {
   And that when we were gone, our daught -- ers and sons would stand where we stood.
 }
 
+codalyrics = \lyricmode {
+  Was the first time I'd heard two ti -- ny words said by ever -- y wo -- man and man.
+  Now I say them still, and I al -- ways will: NO PAS -- A --RAN!
+}
+
 \score {
 <<
 \relative c'
@@ -118,6 +123,7 @@ versefive = \lyricmode {
   r4 d e fis8 g4. fis4 e r d d d' d b d2 a4 r fis e8~d4. e4 fis2.
   r2. a2 fis4 g2 fis4 a2.\fermata
 
+  % Temporary tempos until proper phrasing marks are inserted.
   \tempo 4 = 120
   r2 a4\fermata b8 r4 cis8 d4 a g fis e8 r4  fis8 g4 fis4 r8
   d8 d4 a'4 a4. a8 g4. a8 fis4 e2.
@@ -128,9 +134,13 @@ versefive = \lyricmode {
   r4 d e fis r8 g fis4 e r8 fis e4 d d' d b8~d4. b4 a4. g8 fis4 e4. d8 e4 d2.
   r2 a'4 b8 cis4. d4 a r fis e fis4. g8 fis4 r d8 d a'2 a4 g8~a4. fis4 e2.
   r4 d e fis g fis e r d d d' d b8~d4. b4 a2 r4 e8~fis4. e4 d2.\fermata
-  
-  
-  
+
+  r4 a'^\markup {\italic Largo} a
+  \tempo 4 = 120
+  b cis d a r2 e4 fis g fis r4 d4 a'2 a8 a g8 a4. fis4 e2.
+  r2 d8^\markup {\italic rit.}~e fis4. g8 fis4 e r d4 d d' d b8~d8~d2\fermata
+  a2. fis2 e4 d2.\fermata
+
 }
 \new Lyrics \lyricsto "tenor" {
 \verseone
@@ -139,6 +149,7 @@ versefive = \lyricmode {
 \versefour
 \bridge
 \versefive
+\codalyrics
 }
 \relative c'
 \new Voice = bass {
