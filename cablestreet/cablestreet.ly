@@ -104,11 +104,19 @@ hum = \lyricmode {
       r2 a4 b8 cis4. d4 fis,4 r d' cis cis4. cis8 b4 r a8 a d2 d4 d2 d4 cis2.
       r4 a a a b a a r a fis b a b2 g4 fis2 r4 cis'2 b4 a2.\fermata
 
-      r2. d2. d4 r2 cis2. b4 r2 d2. d2. cis2. r2. r2. r2
+      \new Voice = "altocoda" {
+      r2. d2.( d4) r2 cis2.( b4) r2 d2.( d2. cis2.) r2. r2. r2
       a4 a a a b2.\fermata
       fis2. cis'2 cis4 a2.\fermata
+      }
     }
   >>
+
+  \new Lyrics \lyricsto "altocoda" {
+    \hum \hum \hum
+    \codaFinalLine
+  }
+
   \new Staff = "tenors"
   \with {instrumentName = "Tenor" }
   <<
