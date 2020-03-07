@@ -44,8 +44,8 @@ versefour = \lyricmode {
   \key d \major
   r4 d e a4. a8 a4 a a a fis b a b b g fis4. e8 d4 cis' cis a fis2.
   r4 d8 e4. a4. a8 a4 a8 r4 a8 a4 fis b a b2 g4 fis4. e8 d4 cis' cis b a2.
-  r4 a a b8 cis4. d4 fis, e d' cis cis cis8 d~d4 r4 a d2 a4 b d4. d8 cis 2.
-  r4 a4 b a8 b4. a4 a a r fis b a b d8 d4. d a8 a4 cis cis e, fis2.
+  r4 a a b8 cis4. d4 fis, e d' cis cis cis8 d~d4 r4 a d2 d4 b d4. cis8 cis 2.
+  r4 a4 b a8 b4. a4 a a r fis b a b b8 d4. d a8 a4 cis cis e, fis2.
   r4. d'4. d2 d4 cis4 cis4. a8 b2.\fermata
 
   r4 d, e a4 b a a a8 a r4 fis b a b2 g4 fis r4 d e8 fis4. g4 fis2.
