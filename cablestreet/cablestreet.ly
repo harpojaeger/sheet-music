@@ -25,8 +25,8 @@ versethree = \lyricmode {
   Now three thou -- sand fasc -- ists, their u -- ni -- forms black, had set out to march on that day
   And six thou -- sand po -- lice -- men in -- tend -- ed to greet them by mak -- ing clear the way.
   But we were there rea -- dy, our nerves, they were stea -- dy. One hun -- dred thou -- sand en masse.
-  And we plant -- ed our feet a -- long Ca -- ble Street, and we sang They shall not pass!
-  We sang They shall not pass!
+  And we plant -- ed our feet a -- long Ca -- ble Street, and we sang "\"They" shall not "pass!\""
+  We sang "\"They" shall not "pass!\""
 }
 
 versefour = \lyricmode {
@@ -52,7 +52,7 @@ versefive = \lyricmode {
 
 codalyrics = \lyricmode {
   Was the first time I'd heard two ti -- ny words said by ever -- y wo -- man and man.
-  Now I say them still, and I al -- ways will: NO PAS -- A --RAN!
+  Now I say them still, and I al -- ways will: "\"NO" PAS -- A -- "RAN!\""
 }
 
 \score {
@@ -187,12 +187,16 @@ codalyrics = \lyricmode {
 
   r2 d4\fermata g8 r4 g,8 b4 d d d a8 r4 fis8 a4 b4
   r8 a8 a4 d4 d4. d8 g,4. d'8 b4 a2.
-  r2 a4 d4 d4. d8 cis4 r4 b4 b4 d2 g2 d4 d4. d4. a2 a4 d2.
+  r2 a4 d4 d4. d8 cis4 r4 b4 b4 d2 g2 d4 d4. d4. a2 a4 fis'2.
 
   r2. r2. r2 d4 d d d g2 d4 d4. d8 d4 a4 d4. cis8 b2.
   r4 a a d r8 d8 d4 cis4 r8 cis8 cis4 b4 d d g2 d4 d4. d8 d4 a4. d8 e4 fis2.
   r2 d4 g8 g4. g4 d4 r d a4 a4. a8 b4 r4 a8 a8 d2 d4 g,8 d'4. b4 a2.
   r4 a a d d d cis r cis b d d g2 d4 d2 r4 a2 a4 fis'2.\fermata
+
+  r2. g2. d4 r2 a2. b4 r2 d2. g,2. a2. r2.
+  r2. r2 d4 d d d g2.\fermata
+  d2. a2 fis4~fis2.\fermata
 }
 >>
 \layout { }
