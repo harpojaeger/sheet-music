@@ -71,6 +71,10 @@ bridge = \lyricmode {
   r2 a4 b a4. g8 fis4 e r8 fis cis'4. b8 cis4 cis b a d r2 b8 cis4. d4 cis2.
   r4 a b a8 b4. a4 a r a fis b a b d2 d4 r d cis2 a4 fis2.
   r2. d'2 d4 d2 d4 cis2.\fermata
+
+  r2 a4\fermata d8 r4 d8 d4 d a a cis8 r4 cis8 cis4 b4
+  r8 a8 a4 d4 d4. d8 d4. d8 d4 cis2.
+  r2 a4 a b4. a8 a4 r4 a fis b2 b2 g4 fis4. fis cis'2 b4 a2.
 }
 \relative c' 
 \new Voice = "tenor" {
@@ -103,7 +107,7 @@ bridge = \lyricmode {
   r2. a2 fis4 g2 fis4 a2.\fermata
 
   \tempo 4 = 120
-  r2 a4 b8 r4 cis8 d4 a g fis e8 r4  fis8 g4 fis4 r8
+  r2 a4\fermata b8 r4 cis8 d4 a g fis e8 r4  fis8 g4 fis4 r8
   d8 d4 a'4 a4. a8 g4. a8 fis4 e2.
   \tempo 4 = 135
   r2 d4 fis g4. fis8 e4 r d d d'2 b8~d4. b4 a4. fis e8~fis4. e4 d2.
