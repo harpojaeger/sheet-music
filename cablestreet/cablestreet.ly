@@ -146,6 +146,10 @@ bridge = \lyricmode {
   r2 d4 g g4. g8 d4 d r8 d a4. a8 a4 b b b d r2 g,8 d'4. b4 a2.
   r4 a4 a d8 d4. d4 cis r cis b d fis g g2 d4 r d a2 a4 b2.
   r2. fis'4 d d b'2 fis4 e2.\fermata
+
+  r2 d4\fermata g8 r4 g,8 b4 d d d a8 r4 fis8 a4 b4
+  r8 a8 a4 d4 d4. d8 g,4. d'8 b4 a2.
+  r2 a4 d4 d4. d8 cis4 r4 b4 b4 d2 g2 d4 d4. d4. a2 a4 d2.
 }
 >>
 \layout { }
