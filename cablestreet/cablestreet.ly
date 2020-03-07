@@ -43,6 +43,13 @@ bridge = \lyricmode {
   But I'll not re -- gret the day I stood, and Lon -- don stood with me.
 }
 
+versefive = \lyricmode {
+  And when the news spread, the day had been won, and Mos -- ley was limp -- ing a -- way.
+  There were shouts, there were cheers, there were songs, there were tears, and I hear them all to this day.
+  And we all swore then we'd stand up a -- gain, for as long as our legs could.
+  And that when we were gone, our daught -- ers and sons would stand where we stood.
+}
+
 \score {
 <<
 \relative c'
@@ -111,6 +118,13 @@ bridge = \lyricmode {
   d8 d4 a'4 a4. a8 g4. a8 fis4 e2.
   \tempo 4 = 135
   r2 d4 fis g4. fis8 e4 r d d d'2 b8~d4. b4 a4. fis e8~fis4. e4 d2.
+
+  r2 d4 fis4. g8 fis4 e r d d d' d b8~d4. b4 a4. g8 fis4 e d4. e8 b2.
+  r4 d e fis r8 g fis4 e r8 fis e4 d d' d b8~d4. b4 a4. g8 fis4 e4. d8 e4 d2.
+  r2 a'4 b8 cis4. d4 a r fis e fis4. g8 fis4 r d8 d a'2 a4 g8~a4. fis4 e2.
+  r4 d e fis g fis e r d d d' d b8~d4. b4 a2 r4 e8 fis4. e4 d2.\fermata
+  
+  
   
 }
 \new Lyrics \lyricsto "tenor" {
@@ -119,6 +133,7 @@ bridge = \lyricmode {
 \versethree
 \versefour
 \bridge
+\versefive
 }
 \relative c'
 \new Voice = bass {
