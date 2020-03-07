@@ -127,7 +127,7 @@ versefive = \lyricmode {
   r2 d4 fis4. g8 fis4 e r d d d' d b8~d4. b4 a4. g8 fis4 e d4. e8 b2.
   r4 d e fis r8 g fis4 e r8 fis e4 d d' d b8~d4. b4 a4. g8 fis4 e4. d8 e4 d2.
   r2 a'4 b8 cis4. d4 a r fis e fis4. g8 fis4 r d8 d a'2 a4 g8~a4. fis4 e2.
-  r4 d e fis g fis e r d d d' d b8~d4. b4 a2 r4 e8 fis4. e4 d2.\fermata
+  r4 d e fis g fis e r d d d' d b8~d4. b4 a2 r4 e8~fis4. e4 d2.\fermata
   
   
   
@@ -170,6 +170,11 @@ versefive = \lyricmode {
   r2 d4\fermata g8 r4 g,8 b4 d d d a8 r4 fis8 a4 b4
   r8 a8 a4 d4 d4. d8 g,4. d'8 b4 a2.
   r2 a4 d4 d4. d8 cis4 r4 b4 b4 d2 g2 d4 d4. d4. a2 a4 d2.
+
+  r2. r2. r2 d4 d d d g2 d4 d4. d8 d4 a4 d4. cis8 b2.
+  r4 a a d r8 d8 d4 cis4 r8 cis8 cis4 b4 d d g2 d4 d4. d8 d4 a4. d8 e4 fis2.
+  r2 d4 g8 g4. g4 d4 r d a4 a4. a8 b4 r4 a8 a8 d2 d4 g,8 d'4. b4 a2.
+  r4 a a d d d cis r cis b d d g2 d4 d2 r4 a2 a4 fis'2.\fermata
 }
 >>
 \layout { }
