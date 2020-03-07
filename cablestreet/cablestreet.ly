@@ -37,6 +37,12 @@ versefour = \lyricmode {
   We would not be moved.
 }
 
+bridge = \lyricmode {
+  And yes, there was vio -- lence, and yes, there was blood
+  And I saw things a lad shouldn -- 't see
+  But I'll not re -- gret the day I stood, and Lon -- don stood with me.
+}
+
 \score {
 <<
 \relative c'
@@ -95,6 +101,12 @@ versefour = \lyricmode {
   r2 a'4 b cis4. d8 a4 g r8 fis e4. fis8 g4 fis e d a' r2 g8 a4. fis4 e2.
   r4 d e fis8 g4. fis4 e r d d d' d b d2 a4 r fis e8~d4. e4 fis2.
   r2. a2 fis4 g2 fis4 a2.\fermata
+
+  \tempo 4 = 120
+  r2 a4 b8 r4 cis8 d4 a g fis e8 r4  fis8 g4 fis4 r8
+  d8 d4 a'4 a4. a8 g4. a8 fis4 e2.
+  \tempo 4 = 135
+  r2 d4 fis g4. fis8 e4 r d d d'2 b8~d4. b4 a4. fis e8~fis4. e4 d2.
   
 }
 \new Lyrics \lyricsto "tenor" {
@@ -102,6 +114,7 @@ versefour = \lyricmode {
 \versetwo
 \versethree
 \versefour
+\bridge
 }
 \relative c'
 \new Voice = bass {
