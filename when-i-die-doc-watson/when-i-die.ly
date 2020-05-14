@@ -7,18 +7,28 @@
 
 \score {
 \new ChoirStaff <<
-  % \new Staff = "high-harmony"
-  % % \with { instrumentName = "Alto" }
-  % <<
-  %   \relative c
-  %   \new Voice = alto {
-  %     \key a \major
+  \new Staff = "harmony-one"
+  <<
+    \relative c'
+    \new Voice = harmony-one {
+      \key g \major
+      r4 b4 b8 c b4 b8 b e4 fis g8 g r4
+      r4 d16 d8. d8 d8 a a16( d) d8 d d b d4 r4
+      b4 b8 c b4 b8 b e4 fis g8 g
+      g16 d8. e4.( e4) d8 d d b2.
+    }
+  >>
 
-  %   }
-  % >>
+  \new Lyrics \lyricsto "harmony-one" {
+    \lyricmode {
+      cause I be -- lieve and have found sal -- va --tion
+      When I die I'll live a -- gain  I'll live a -- gain
+      I may take part in the ju -- bi -- la -- tion
+      When I die, I'll live a -- gain
+    }
+  }
 
   \new Staff = "melody"
-  \with {instrumentName = "Melody" }
   <<
     \relative c
     \new Voice = melody {
@@ -26,7 +36,7 @@
       \tempo 4 = 90
       \time 4/4
       \relative c'
-      \partial 4 b'8( c) d4 d8 e8 d4 d8 fis g4 a b8 b8 r4
+      \partial 4 b'8( d) d4 d8 e8 d4 d8 fis g4 a b8 b8 r4
         r4 b16 b8. g8 g a b a2.
         b,8( c) d4 d8 e8 d4 d8 fis g4 a b8 b8 r4
         r4 b16 b8. g8 g a b16( a) g2. r4
