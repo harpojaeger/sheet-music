@@ -1,8 +1,8 @@
 \version "2.18.2"
 \header {
   title = "When I Die"
-  composer = "Traditional, as sung by the Watson Family"
-  arranger = "arr. Emily Miller/Harpo Jaeger"
+  composer = "Trad., as sung by the Watson Family"
+  arranger = "arr. Harpo Jaeger/E. Miller"
 }
 
 \score {
