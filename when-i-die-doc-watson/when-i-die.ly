@@ -29,7 +29,7 @@
   \new Lyrics \lyricsto "harmony-one" {
     \lyricmode {
       \set stanza = "1."
-      cause I be -- lieve and have found sal -- va --tion
+      -cause I be -- lieve and have found sal -- va --tion
       When I die I'll live a -- gain,  I'll live a -- gain
       I may take part in the ju -- bi -- la -- tion
       When I die, I'll live a -- gain
@@ -100,7 +100,7 @@
   \new Lyrics \lyricsto "low-harmony" {
     \lyricmode {
       \set stanza = "1."
-      cause I be -- lieve and have found sal -- va -- tion
+      -cause I be -- lieve and have found sal -- va -- tion
       When I die, when I die I'll live a -- gain
       I may take part in the ju -- bi -- la -- tion
       When I die I'll live a -- gain.
