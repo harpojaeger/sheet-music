@@ -34,6 +34,7 @@
       I may take part in the ju -- bi -- la -- tion
       When I die, I'll live a -- gain
 
+      \set stanza = "chorus"
       When I die I'll live a -- gain, I'll live a -- gain.
       Hall -- e -- lu -- jah, I'll live a -- gain.
       Be -- cause I'm for -- giv -- en, my soul will find hea -- ven.
@@ -70,6 +71,7 @@
      That I may take part in the ju -- bi -- lat -- ion
      When I die I'll live a -- gain.
 
+    \set stanza = "chorus"
      When I die I'll live a -- gain,
      Hall -- e -- lu -- jah, I'll live a -- gain.
      Be -- cause I'm for -- giv -- en, my soul will find hea -- ven.
@@ -103,6 +105,7 @@
       I may take part in the ju -- bi -- la -- tion
       When I die I'll live a -- gain.
 
+      \set stanza = "chorus"
       When I die, when I die I'll live a -- gain, yes, live a -- gain.
       Hall -- e -- lu -- jah, I'll live a -- gain.
       Be -- cause I'm for -- giv -- en, my soul will find hea -- ven.
@@ -113,4 +116,24 @@
 >>
 \layout { }
 \midi { }
+}
+\markup {
+  \column {
+    \line { 2. }
+    \line { The fear of the grave is removed forever. }
+    \line { When I die... }
+    \line { My soul will rejoice by the crystal river. }
+  }
+
+  \column {
+    \line {"      "}
+  }
+
+   \column {
+    \line { 3. }
+    \line { Because to the Lord I have made confession, }
+    \line { When I die... }
+    \line { From now on, my soul, there is no transgression. }
+    \line { When I die... }
+  }
 }
