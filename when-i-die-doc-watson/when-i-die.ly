@@ -75,13 +75,38 @@
    }
   }
 
-  % \new Staff = "low-harmony"
-  % % \with { instrumentName = "Bass" }
-  % <<
-  %   \relative c
-  %   \new Voice = bass {
-  %   }
-  % >>
+  \new Staff = "low-harmony"
+  <<
+    \relative c
+    \new Voice = low-harmony {
+      \clef bass
+      r4
+      g g8 g g4 g8 g8 c4 d g8 g
+      g16 d8. e4 d16 b8. g8 g a a d2. r4
+      g, g8 g g4 g8 g8 c4 d g8 g r4
+      r4 b,8 c d8 d d d g,2.
+
+      g'16 d8. e4 d16 b8. g8 g b d g g d b g4
+      d'8. e16 g8 g4 g8 a,4 a d2( d8 c) b( a)
+      g4 g8. g16 g8 g4 c8 c c d4 g8 g r4
+      r4 b,8 c d d d d g,2. r4
+    }
+  >>
+
+  \new Lyrics \lyricsto "low-harmony" {
+    \lyricmode {
+      cause I be -- lieve and have found sal -- va -- tion
+      When I die, when I die I'll live a -- gain
+      I may take part in the ju -- bi -- la -- tion
+      When I die I'll live a -- gain.
+
+      When I die, when I die I'll live a -- gain, yes, live a -- gain.
+      Hall -- e -- lu -- jah, I'll live a -- gain.
+      Be -- cause I'm for -- giv -- en, my soul will find hea -- ven.
+      When I die I'll live a -- gain.
+
+    }
+  }
 >>
 \layout { }
 \midi { }
